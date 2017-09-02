@@ -1,4 +1,3 @@
-
 body {
   overflow-x: hidden;
 }
@@ -58,7 +57,6 @@ div.content {
 .service-tiles {
   display: flex;
   float: none;
-  padding-top: 16px;
   padding-left: 32px;
   padding-right: 32px;
   width: 100%;
@@ -67,10 +65,34 @@ div.content {
   align-items: center;
 }
 
+.brand-info {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+}
+
+.brand-grid {
+  display: grid;
+  width: 70vw;
+  height: 100%;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+}
+
+.brand-img {
+
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+
 .contact-info {
   display: flex;
   width: 100%;
-  height: 20vw;
+  height: 0px;
   background-color: #199AB3;
 }
 
