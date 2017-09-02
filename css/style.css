@@ -1,4 +1,8 @@
 
+body {
+  overflow-x: hidden;
+}
+
 div.nav-bar {
   display: inline;
   width: 100%;
@@ -30,6 +34,7 @@ div.content {
   position: fixed;
   z-index: -1;
   margin-top: -100px;
+  min-width: 100%
 }
 
 .nav-wrapper {
